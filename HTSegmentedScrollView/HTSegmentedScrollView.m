@@ -29,6 +29,7 @@
     self.segmentedControl.tintColor = [UIColor clearColor];
     [self.segmentedControl setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17], NSForegroundColorAttributeName:[UIColor grayColor]} forState:UIControlStateNormal];
     [self.segmentedControl setTitleTextAttributes:@{NSFontAttributeName:[UIFont systemFontOfSize:17], NSForegroundColorAttributeName:[UIColor blackColor]} forState:UIControlStateSelected];
+    self.segmentedControl.selectedSegmentIndex = 0;
     [self addSubview:self.segmentedControl];
     
     self.segmentMarkView = [[UIView alloc] initWithFrame:CGRectMake(self.segmentedControl.frame.origin.x, self.segmentedControl.frame.origin.y + self.segmentedControl.frame.size.height, self.segmentedControl.frame.size.width/items.count, 5)];
