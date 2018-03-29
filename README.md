@@ -1,0 +1,2 @@
+# HTSegmentedScrollView
+一款分段视图控件，SegmentedControl与ScrollView联动，可通过点击SegmentedControl切换视图，也可以拖动ScrollView切换
